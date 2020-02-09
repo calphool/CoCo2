@@ -10,7 +10,7 @@ My CoCo 2 has a [vertically oriented RF modulator](./motherboard.jpeg).  So, I d
 composite out and sound out RCA port.  I desoldered the MC1372 chip from inside the old modulator board, since I'm repurposing that chip.
 
 I'm not an expert, but it appears that the video graphics display chip of the CoCo2 (the MC6847) outputs a luminance and two chrominance channels (called PHI-A and PHI-B).
-Even though once of these is a luminance channel, and in theory could drive a black and white composite signal, it isn't at the right voltage levels or bias, and so it 
+Even though one of these is a luminance channel, and in theory could drive a black and white composite signal, it isn't at the right voltage levels or bias, and so it 
 must both be conditioned and mixed with the chrominance channels.  That's where the MC1372 chip comes in.  Originally intended as an RF signal generator, it has a 
 useful "test mode" that allows it to output a mixed composite (or CVBS) signal that can then be conditioned to drive a television monitor that accepts CVBS, which most 
 TVs still accept (though some very modern ones don't have separate inputs for it -- they accept the CVBS channel on the green RGB input).
