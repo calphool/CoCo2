@@ -1,6 +1,6 @@
 # CoCo2
 
-##February 8, 2020
+## February 8, 2020
 
 This is my collection area for Tandy Color Computer 2 Projects.  I've only got one at the moment.  It's a composite video mod for the CoCo 2.  The CoCo was designed 
 in a time when it was perfectly reasonable to assume that all televisions had an analog RF input.  Of course that's no longer the case, so something has to be done 
