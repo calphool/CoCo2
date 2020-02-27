@@ -182,6 +182,41 @@
 <text x="-5.08" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
 <text x="6.35" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="DIL24-6" urn="urn:adsk.eagle:footprint:18140/1">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 0.6 inch</description>
+<wire x1="-15.113" y1="-1.27" x2="-15.113" y2="-6.604" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="1.27" x2="-15.113" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="15.113" y1="-6.604" x2="15.113" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="6.604" x2="-15.113" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="6.604" x2="15.113" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="-6.604" x2="15.113" y2="-6.604" width="0.1524" layer="21"/>
+<pad name="1" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<text x="-15.621" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-12.065" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MC1372">
@@ -205,6 +240,39 @@
 <pin name="RF_TANK_1" x="20.32" y="15.24" length="middle" rot="R180"/>
 <pin name="RF_TANK_2" x="20.32" y="22.86" length="middle" rot="R180"/>
 <text x="-5.08" y="27.94" size="1.27" layer="94">&gt;NAME
+&gt;VALUE</text>
+</symbol>
+<symbol name="MC68764">
+<description>MC68764</description>
+<wire x1="0" y1="27.94" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="0" y2="27.94" width="0.254" layer="94"/>
+<pin name="A7" x="-5.08" y="25.4" length="middle"/>
+<pin name="A6" x="-5.08" y="22.86" length="middle"/>
+<pin name="A5" x="-5.08" y="20.32" length="middle"/>
+<pin name="A4" x="-5.08" y="17.78" length="middle"/>
+<pin name="A3" x="-5.08" y="15.24" length="middle"/>
+<pin name="A2" x="-5.08" y="12.7" length="middle"/>
+<pin name="A1" x="-5.08" y="10.16" length="middle"/>
+<pin name="A0" x="-5.08" y="7.62" length="middle"/>
+<pin name="DQ0" x="-5.08" y="5.08" length="middle"/>
+<pin name="DQ1" x="-5.08" y="2.54" length="middle"/>
+<pin name="DQ2" x="-5.08" y="0" length="middle"/>
+<pin name="VSS" x="-5.08" y="-2.54" length="middle"/>
+<pin name="DQ3" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="DQ4" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="DQ5" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="DQ6" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="DQ7" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="A11" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="A10" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="E*/VPP" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="A12" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="A9" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="A8" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="VCC" x="22.86" y="25.4" length="middle" rot="R180"/>
+<text x="5.08" y="-10.16" size="1.778" layer="94">&gt;NAME
 &gt;VALUE</text>
 </symbol>
 </symbols>
@@ -231,6 +299,45 @@
 <connect gate="G$1" pin="RF_TANK_1" pad="13"/>
 <connect gate="G$1" pin="RF_TANK_2" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCM68764">
+<description>MCM68764</description>
+<gates>
+<gate name="G$1" symbol="MC68764" x="2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="DIL24-6">
+<connects>
+<connect gate="G$1" pin="A0" pad="8"/>
+<connect gate="G$1" pin="A1" pad="7"/>
+<connect gate="G$1" pin="A10" pad="19"/>
+<connect gate="G$1" pin="A11" pad="18"/>
+<connect gate="G$1" pin="A12" pad="21"/>
+<connect gate="G$1" pin="A2" pad="6"/>
+<connect gate="G$1" pin="A3" pad="5"/>
+<connect gate="G$1" pin="A4" pad="4"/>
+<connect gate="G$1" pin="A5" pad="3"/>
+<connect gate="G$1" pin="A6" pad="2"/>
+<connect gate="G$1" pin="A7" pad="1"/>
+<connect gate="G$1" pin="A8" pad="23"/>
+<connect gate="G$1" pin="A9" pad="22"/>
+<connect gate="G$1" pin="DQ0" pad="9"/>
+<connect gate="G$1" pin="DQ1" pad="10"/>
+<connect gate="G$1" pin="DQ2" pad="11"/>
+<connect gate="G$1" pin="DQ3" pad="13"/>
+<connect gate="G$1" pin="DQ4" pad="14"/>
+<connect gate="G$1" pin="DQ5" pad="15"/>
+<connect gate="G$1" pin="DQ6" pad="16"/>
+<connect gate="G$1" pin="DQ7" pad="17"/>
+<connect gate="G$1" pin="E*/VPP" pad="20"/>
+<connect gate="G$1" pin="VCC" pad="24"/>
+<connect gate="G$1" pin="VSS" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
