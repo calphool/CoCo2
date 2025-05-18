@@ -31,3 +31,24 @@ I may decide to build my own VGA or HDMI board, though if I do, I may use the ou
 wanted to learn how to program FPGAs, and I found this [little reference](http://ocw.abu.edu.ng/courses/electrical-engineering-and-computer-science/6-111-introductory-digital-systems-laboratory-fall-2002/lecture-notes/l18.pdf) to an approach for how to coax a digital signal out of the analog outputs of the MC6847.
 Using that approach, I think it would be possible to use the [AM26LS32](http://www.ti.com/lit/ds/symlink/am26ls32ac.pdf) to feed a FPGA (probably along with a few other 
 signals from the MC6847 to be able to detect sync signals) to paint an in-memory video buffer, and then figure out some way to push that buffer out an HDMI (TMDS) port.  
+
+I've attached a few pictures below to help someone who was building one of these.
+
+The first picture shows the view from behind.  ![From Behind](view_from_behind.jpg?raw=true)  Notice that I used a Y cable for the RCA jacks, one for 
+composite video and the other for audio.  They share a common ground.  You could just wire your cable directly to the PCB if you were okay with having 
+cables hanging out of the back of the machine (which wouldn't be a huge issue, since the CoCo actually has a power cable permanently attached).
+
+The second picture shows how the Y cable is connected. ![Showing Y Cable](showing_y_cable.jpg?raw=true).
+
+The third shows a front-on view.  ![Front on view](front_on_view.jpg?raw=true) There are a couple of things to notice.  First, you can see the right angle 
+header connecting the Coco's motherboard to the composite board, and also a wire going from ground on the composite board to a hole where the original can was soldered (it's grounded on the 
+motherboard).  The next thing to notice is at the top.  R1 and D1 are not installed as the 1.0 PCB shows.  I made a mistake on the original schematic.  So, 
+what you can see here is that D1 is inserted in the opposite direction of what the PCB shows (the orientation band is to the RIGHT, not the LEFT).  Also, 
+you can see a hacky pair of resistors soldered together.  I didn't have a 360 ohm resistor, so I "made one" by combining a 330 ohm and a 39 ohm, which was 
+close enough.  If you have a 360 ohm, you can make a cleaner hack.  Notice that the resistor pair is inserted in the TOP hole for R1, and R1's bottom hold 
+is left empty, and the other end of the resistor pair is soldered to the back of D1.
+
+The fourth shows a close up view.  ![close up view](close_up_view.jpg?raw=true)
+
+The fifth shows another top view ~[close up top](view_from_top.jpg?raw=true) where you can clearly see that D1 is in the opposite orientation of what shows 
+on the PCB. It's pretty important that if you decide to build this PCB, you follow the PDF instructions carefully. 
