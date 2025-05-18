@@ -45,7 +45,7 @@ header connecting the Coco's motherboard to the composite board, and also a wire
 motherboard).  The next thing to notice is at the top.  R1 and D1 are not installed as the 1.0 PCB shows.  I made a mistake on the original schematic.  So, 
 what you can see here is that D1 is inserted in the opposite direction of what the PCB shows (the orientation band is to the RIGHT, not the LEFT).  Also, 
 you can see a hacky pair of resistors soldered together.  I didn't have a 360 ohm resistor, so I "made one" by combining a 330 ohm and a 39 ohm, which was 
-close enough.  If you have a 360 ohm, you can make a cleaner hack.  Notice that the resistor pair is inserted in the TOP hole for R1, and R1's bottom hold 
+close enough.  If you have a 360 ohm, you can make a cleaner hack.  Notice that the resistor pair is inserted in the TOP hole for R1, and R1's bottom hole 
 is left empty, and the other end of the resistor pair is soldered to the back of D1.
 
 The fourth shows a close up view.  ![close up view](close_up_view.jpg?raw=true)
