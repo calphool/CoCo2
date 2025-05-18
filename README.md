@@ -48,7 +48,7 @@ you can see a hacky pair of resistors soldered together.  I didn't have a 360 oh
 close enough.  If you have a 360 ohm, you can make a cleaner hack.  Notice that the resistor pair is inserted in the TOP hole for R1, and R1's bottom hole 
 is left empty, and the other end of the resistor pair is soldered to the back of D1.
 
-The fourth shows a close up view.  ![close up view](close_up_view.jpg?raw=true)
+The fourth shows a close up view.  ![close up view](close_up.jpg?raw=true)
 
-The fifth shows another top view ~[close up top](view_from_top.jpg?raw=true) where you can clearly see that D1 is in the opposite orientation of what shows 
+The fifth shows another top view ![close up top](view_from_top.jpg?raw=true) where you can clearly see that D1 is in the opposite orientation of what shows 
 on the PCB. It's pretty important that if you decide to build this PCB, you follow the PDF instructions carefully. 
